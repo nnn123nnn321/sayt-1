@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@najimiddinnn</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+  
+  <body class="bg-grey-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Najimov Najimiddin</h1>
+      <nav class="space-x-4 hidden md:block">
+        
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="pt-24">
+    <!-- Hero Section -->
+    <section id="home" class="text-center py-20 bg-blue-100">
+      <h2 class="text-5xl font-bold mb-4">Men bilan tanishmoqchimisiz</h2>
+      <p class="mb-6 text-lg">Mening Telegram va Instagramdan yozsangiz bo'ladi. </p>
+      <button class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Boshlash</button>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 container mx-auto px-4">
+              </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-100 py-16">
+      <div class="container mx-auto px-4 text-center">
+      
+      </div>
+    </section>
+  </main>
+
+  <!-- Slider Section -->
+<section class="py-16 bg-white">
+  <div class="container mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center mb-10"</h3>
+
+   
+        </div>
+      </div>
+      <!-- Slider Navigation -->
+      <div class="swiper-pagination mt-4"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Feedback Form Section -->
+<section id="contact" class="py-16 bg-gray-100">
+  <div class="container mx-auto px-4 max-w-2xl">
+    <h3 class="text-3xl font-bold text-center mb-6">Ro'yhatdan o'ting</h3>
+    <form id="feedbackForm" class="bg-white p-6 rounded shadow-md space-y-4" data-aos="fade-up">
+      <div>
+        <label class="block mb-1 font-medium">Ismingiz</label>
+        <input type="text" name="name" class="w-full border px-4 py-2 rounded" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-medium">Email manzilingiz</label>
+        <input type="email" name="email" class="w-full border px-4 py-2 rounded" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-medium">Fikringiz</label>
+        <textarea name="message" rows="4" class="w-full border px-4 py-2 rounded" required></textarea>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Yuborish</button>
+      <p id="formSuccess" class="text-green-600 hidden mt-2">Fikringiz muvaffaqiyatli yuborildi!</p>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 border-t">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2025 MyCompany. Barcha huquqlar himoyalangan.</p>
+      <div class="space-x-4 mt-4 md:mt-0">
+        <a href="#" class="hover:text-blue-600">Facebook</a>
+        <a href="https://t.me/najimiddinnn" class="hover:text-blue-600">Telegram</a>
+        <a href="https://www.instagram.com/najimiddinnn?utm_source=qr&igsh=amVtZDFuYWI3ZXNy" class="hover:text-blue-600">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    loop: true,
+    autoplay: {
+      delay: 3500,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
+
+
+</body>
+</html>
